@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Min mappe\\GitHub\\GUI\\assignment2\\assignment2\\assignment2.csproj",
-      "projectName": "assignment2",
-      "projectPath": "C:\\Min mappe\\GitHub\\GUI\\assignment2\\assignment2\\assignment2.csproj",
+      "projectUniqueName": "C:\\Min mappe\\GitHub\\GUI\\assignment2\\assignment2\\Morgenmadsbuffeten.csproj",
+      "projectName": "Morgenmadsbuffeten",
+      "projectPath": "C:\\Min mappe\\GitHub\\GUI\\assignment2\\assignment2\\Morgenmadsbuffeten.csproj",
       "packagesPath": "C:\\Users\\Louis\\.nuget\\packages\\",
       "outputPath": "C:\\Min mappe\\GitHub\\GUI\\assignment2\\assignment2\\obj\\",
       "projectStyle": "PackageReference",

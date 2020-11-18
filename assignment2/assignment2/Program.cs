@@ -9,8 +9,6 @@ using Microsoft.Extensions.Logging;
 
 namespace assignment2
 {
-
-
     public class Program
     {
         public static void Main(string[] args)
