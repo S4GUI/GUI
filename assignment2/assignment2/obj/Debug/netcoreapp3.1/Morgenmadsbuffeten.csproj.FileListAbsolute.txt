@@ -35,3 +35,6 @@ C:\Min mappe\GitHub\GUI\assignment2\assignment2\obj\Debug\netcoreapp3.1\Morgenma
 C:\Min mappe\GitHub\GUI\assignment2\assignment2\obj\Debug\netcoreapp3.1\Morgenmadsbuffeten.pdb
 C:\Min mappe\GitHub\GUI\assignment2\assignment2\obj\Debug\netcoreapp3.1\Morgenmadsbuffeten.genruntimeconfig.cache
 C:\Min mappe\GitHub\GUI\assignment2\assignment2\obj\Debug\netcoreapp3.1\Morgenmadsbuffeten.csproj.CopyComplete
+C:\Min mappe\GitHub\GUI\assignment2\assignment2\obj\Debug\netcoreapp3.1\Razor\Views\Kitchen\Kitchen.cshtml.g.cs
+C:\Min mappe\GitHub\GUI\assignment2\assignment2\obj\Debug\netcoreapp3.1\Razor\Views\Reception\Reception.cshtml.g.cs
+C:\Min mappe\GitHub\GUI\assignment2\assignment2\obj\Debug\netcoreapp3.1\Razor\Views\Restaurant\Restaurant.cshtml.g.cs

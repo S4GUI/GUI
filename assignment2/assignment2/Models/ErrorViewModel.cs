@@ -1,6 +1,6 @@
 using System;
 
-namespace assignment2.Models
+namespace Morgenmadsbuffeten.Models
 {
     public class ErrorViewModel
     {
