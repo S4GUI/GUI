@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\chris\\OneDrive - Aarhus universitet\\IKT - 2. semester\\Semesterprojekt 2\\Github\\GUI\\assignment2\\assignment2\\Morgenmadsbuffeten.csproj": {}
+    "C:\\Min mappe\\GitHub\\GUI\\assignment2\\assignment2\\Morgenmadsbuffeten.csproj": {}
   },
   "projects": {
-    "C:\\Users\\chris\\OneDrive - Aarhus universitet\\IKT - 2. semester\\Semesterprojekt 2\\Github\\GUI\\assignment2\\assignment2\\Morgenmadsbuffeten.csproj": {
+    "C:\\Min mappe\\GitHub\\GUI\\assignment2\\assignment2\\Morgenmadsbuffeten.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\chris\\OneDrive - Aarhus universitet\\IKT - 2. semester\\Semesterprojekt 2\\Github\\GUI\\assignment2\\assignment2\\Morgenmadsbuffeten.csproj",
+        "projectUniqueName": "C:\\Min mappe\\GitHub\\GUI\\assignment2\\assignment2\\Morgenmadsbuffeten.csproj",
         "projectName": "Morgenmadsbuffeten",
-        "projectPath": "C:\\Users\\chris\\OneDrive - Aarhus universitet\\IKT - 2. semester\\Semesterprojekt 2\\Github\\GUI\\assignment2\\assignment2\\Morgenmadsbuffeten.csproj",
-        "packagesPath": "C:\\Users\\chris\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\chris\\OneDrive - Aarhus universitet\\IKT - 2. semester\\Semesterprojekt 2\\Github\\GUI\\assignment2\\assignment2\\obj\\",
+        "projectPath": "C:\\Min mappe\\GitHub\\GUI\\assignment2\\assignment2\\Morgenmadsbuffeten.csproj",
+        "packagesPath": "C:\\Users\\Louis\\.nuget\\packages\\",
+        "outputPath": "C:\\Min mappe\\GitHub\\GUI\\assignment2\\assignment2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\chris\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Louis\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +26,6 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -38,7 +37,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -57,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
