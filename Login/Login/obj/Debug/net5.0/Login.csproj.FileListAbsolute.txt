@@ -76,3 +76,4 @@ C:\Users\chris\source\repos\Login\Login\obj\Debug\net5.0\Login.dll
 C:\Users\chris\source\repos\Login\Login\obj\Debug\net5.0\ref\Login.dll
 C:\Users\chris\source\repos\Login\Login\obj\Debug\net5.0\Login.pdb
 C:\Users\chris\source\repos\Login\Login\obj\Debug\net5.0\Login.genruntimeconfig.cache
+C:\Min mappe\GitHub\GUI\Login\Login\obj\Debug\net5.0\Login.pdb
