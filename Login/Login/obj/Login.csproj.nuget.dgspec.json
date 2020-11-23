@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Min mappe\\GitHub\\GUI\\Login\\Login\\Login.csproj": {}
+    "C:\\Users\\chris\\source\\repos\\Login\\Login\\Login.csproj": {}
   },
   "projects": {
-    "C:\\Min mappe\\GitHub\\GUI\\Login\\Login\\Login.csproj": {
+    "C:\\Users\\chris\\source\\repos\\Login\\Login\\Login.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Min mappe\\GitHub\\GUI\\Login\\Login\\Login.csproj",
+        "projectUniqueName": "C:\\Users\\chris\\source\\repos\\Login\\Login\\Login.csproj",
         "projectName": "Login",
-        "projectPath": "C:\\Min mappe\\GitHub\\GUI\\Login\\Login\\Login.csproj",
-        "packagesPath": "C:\\Users\\Louis\\.nuget\\packages\\",
-        "outputPath": "C:\\Min mappe\\GitHub\\GUI\\Login\\Login\\obj\\",
+        "projectPath": "C:\\Users\\chris\\source\\repos\\Login\\Login\\Login.csproj",
+        "packagesPath": "C:\\Users\\chris\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\chris\\source\\repos\\Login\\Login\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Louis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\chris\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -25,7 +25,8 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net50": {
+          "net5.0": {
+            "targetAlias": "net5.0",
             "projectReferences": {}
           }
         },
@@ -36,7 +37,8 @@
         }
       },
       "frameworks": {
-        "net50": {
+        "net5.0": {
+          "targetAlias": "net5.0",
           "dependencies": {
             "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
               "target": "Package",
@@ -59,12 +61,25 @@
               "version": "[5.0.0, )"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
-        }
-      },
-      "runtimes": {
-        "win7-x86": {
-          "#import": []
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
