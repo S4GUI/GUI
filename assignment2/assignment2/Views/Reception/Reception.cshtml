@@ -3,18 +3,51 @@
 @{
     ViewData["Title"] = "Reception";
 }
-<h4>@ViewData["Title"]</h4>
-<h2>Morgenmadsbuffeten</h2>
 
-<div class="text-center">
-    <h1>...</h1>
-
-
-    <p>...</p>
+<div class="container">
+    <div class="col-lg-12">
+        Morgenmadsbuffeten
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Log ud</a>
+    </div>
 </div>
 
-<a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">log ud</a>
-<button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-        aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-</button>
+<div class="container">
+    <div class="col-lg-12">
+        Værelsenummer: <input id="RoomNumber" type="number" /> &nbsp;
+        Voksne: <input id="numberOfAdults" type="number" /> &nbsp;
+        Børn: <input id="numberOfChildren" type="number" />
+    </div>
+</div>
+
+<div class="container">
+    <div class="col-lg-12">
+        <label for="myDate">Dato: </label>
+        <input type="date" name="myDate" id="myDate" />
+        &nbsp; Bestil morgenmadsbuffeten: <input id="Checkbox1" type="checkbox" />
+    </div>
+</div>
+
+<div class="container">
+    <div class="col-lg-12">
+        <input id="Button1" type="button" value="Tilføje" />
+    </div>
+</div>
+
+<div class="container">
+    <div class="col-lg-12">
+        <table>
+            <thead>
+                <tr> <th> Dato <th> Værelsesnummer &nbsp; <th> Voksne &nbsp; <th> Børn &nbsp; <th> Bestilt morgenmad &nbsp; <th> Checket ind til morgenmad </th>
+            </thead>
+            <tbody>
+                <tr> <td> 23-11-2020 &nbsp; <td> 108 <td> 2 <td> 0 <td> &nbsp; <input id="Checkbox1" type="checkbox" /> <td> &nbsp; <input id="Checkbox1" type="checkbox" /> </td>
+                <tr> <td> 23-11-2020 <td> 214 <td> 2 <td> 1 <td> &nbsp; <input id="Checkbox1" type="checkbox" /> <td> &nbsp; <input id="Checkbox1" type="checkbox" /> </td>
+                <tr> <td> 23-11-2020 <td> 113 <td> 2 <td> 2 <td> &nbsp; <input id="Checkbox1" type="checkbox" /> <td> &nbsp; <input id="Checkbox1" type="checkbox" /> </td>
+                <tr> <td> 23-11-2020 <td> 309 <td> 1 <td> 0 <td> &nbsp; <input id="Checkbox1" type="checkbox" /> <td> &nbsp; <input id="Checkbox1" type="checkbox" /> </td>
+                <tr> <td> 23-11-2020 <td> 205 <td> 2 <td> 0 <td> &nbsp; <input id="Checkbox1" type="checkbox" /> <td> &nbsp; <input id="Checkbox1" type="checkbox" /> </td>
+                <tr> <td> 23-11-2020 <td> 402 <td> 1 <td> 2 <td> &nbsp; <input id="Checkbox1" type="checkbox" /> <td> &nbsp; <input id="Checkbox1" type="checkbox" /> </td>
+            </tbody>
+        </table>
+    </div>
+</div>

@@ -3,22 +3,28 @@
 @{
     ViewData["Title"] = "Restaurant";
 }
-<input id="Opdater" type="text" />
+<div class="container">
+    <div class="col-6">
+        Morgenmadsbuffeten
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Log ud</a>
+    </div>
+</div>
 
-
-
-
-<input type="submit" id="RefreshPage" class="btn btn-primary" value="Refresh" name="Command" />
-
-
-
-
-
-
-
-
-<a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">log ud</a>
-<button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-        aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-</button>
+<div class="container">
+    <div class="col-6">
+        <table>
+            <thead>
+                <tr> <th> Værelsesnummer &nbsp; <th> Voksne &nbsp; <th> Børn &nbsp; <th> Checket ind </th>
+            </thead>
+            <tbody>
+                <tr> <td> 108 <td> 2 <td> 0 <td> <input id="Checkbox1" type="checkbox" /> </td>
+                <tr> <td> 214 <td> 2 <td> 1 <td> <input id="Checkbox1" type="checkbox" /> </td>
+                <tr> <td> 113 <td> 2 <td> 2 <td> <input id="Checkbox1" type="checkbox" /> </td>
+                <tr> <td> 309 <td> 1 <td> 0 <td> <input id="Checkbox1" type="checkbox" /> </td>
+                <tr> <td> 205 <td> 2 <td> 0 <td> <input id="Checkbox1" type="checkbox" /> </td>
+                <tr> <td> 402 <td> 1 <td> 2 <td> <input id="Checkbox1" type="checkbox" /> </td>
+            </tbody> 
+        </table>
+    </div>
+</div>

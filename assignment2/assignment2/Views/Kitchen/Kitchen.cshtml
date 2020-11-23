@@ -4,47 +4,33 @@
     ViewData["Title"] = "Kitchen";
 }
 
-<table>
-    <tr>
-        <th> </th>
-        <td>
-            Voksne&nbsp;&nbsp;
-        </td>
-        <td>
-            Børn
-        </td>
-    </tr>
-    <tr>
-        <th>Gæster i alt</th>
-        <td>
-            74
-        </td>
-        <td>
-            34
-        </td>
-    </tr>
-    <tr>
-        <th>Gæster checket ind</th>
-        <td>
-            35
-        </td>
-        <td>
-            15
-        </td>
-    </tr>
-    <tr>
-        <th>Gæster ikke checket ind&nbsp;&nbsp;&nbsp;</th>
-        <td>
-            39
-        </td>
-        <td>
-            19
-        </td>
-    </tr>
-</table>
+<div class="container">
+    <div class="col-md-6">
+        Morgenmadsbuffeten
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Log ud</a>
+    </div>
+</div>
 
-<a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">log ud</a>
-<button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-        aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-</button>
+<div class="container">
+    <div class="col-md-6">
+        <label for="myDate">Dato: </label>
+        <input type="date" name="myDate" id="myDate" />
+
+        <input type="submit" id="RefreshPage" class="btn btn-primary" value="Opdater" name="Command" />
+    </div>
+</div>
+
+<div class="container">
+    <div class="col-md-6">
+        <table>
+            <thead> 
+                <tr> <th> <th> Voksne <th> Børn 
+            <tbody>
+                <tr> <th scope=row> Gæster i alt <td> 74 <td> 34
+                <tr> <th scope=row> Gæster checket ind <td> 35 <td> 15
+                <tr> <th scope=row> Gæster ikke checket ind &nbsp; <td> 39 <td> 19       
+        </table>
+    </div>
+</div>
+
