@@ -1,26 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Courses\\I4GUI\\Obl opg\\Opg 3 - Vue\\ModelsApi\\ModelsApi\\ModelsApi.csproj": {}
+    "C:\\Min mappe\\GitHub\\GUI\\assignment3\\ModelsApi\\ModelsApi\\ModelsApi.csproj": {}
   },
   "projects": {
-    "C:\\Courses\\I4GUI\\Obl opg\\Opg 3 - Vue\\ModelsApi\\ModelsApi\\ModelsApi.csproj": {
+    "C:\\Min mappe\\GitHub\\GUI\\assignment3\\ModelsApi\\ModelsApi\\ModelsApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Courses\\I4GUI\\Obl opg\\Opg 3 - Vue\\ModelsApi\\ModelsApi\\ModelsApi.csproj",
+        "projectUniqueName": "C:\\Min mappe\\GitHub\\GUI\\assignment3\\ModelsApi\\ModelsApi\\ModelsApi.csproj",
         "projectName": "ModelsApi",
-        "projectPath": "C:\\Courses\\I4GUI\\Obl opg\\Opg 3 - Vue\\ModelsApi\\ModelsApi\\ModelsApi.csproj",
-        "packagesPath": "C:\\Users\\Poul Ejnar\\.nuget\\packages\\",
-        "outputPath": "C:\\Courses\\I4GUI\\Obl opg\\Opg 3 - Vue\\ModelsApi\\ModelsApi\\obj\\",
+        "projectPath": "C:\\Min mappe\\GitHub\\GUI\\assignment3\\ModelsApi\\ModelsApi\\ModelsApi.csproj",
+        "packagesPath": "C:\\Users\\Louis\\.nuget\\packages\\",
+        "outputPath": "C:\\Min mappe\\GitHub\\GUI\\assignment3\\ModelsApi\\ModelsApi\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Poul Ejnar\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Louis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -31,6 +26,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -42,6 +38,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
@@ -110,7 +107,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
